@@ -1,0 +1,49 @@
+.coluna {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+}
+#batata{
+	position:absolute;
+	color: black;
+}
+#canvas1{
+	z-index:1;
+}
+#canvas2{
+	z-index:2;
+}
+#canvas3{
+	z-index:3;
+}
+
+.play-btn {
+  background-color: #424242;
+  color:white;
+  font-family:Amatic SC;
+  font-size: 16px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+.p{
+	font-family:Amatic SC;
+	font-size: 16px;
+	color:white;
+	background-color: #424242;
+
+}
+.h1{
+	font-family:Amatic SC;
+	font-size: 26px;
+	color:white;
+	background-color: #380B61;
+	margin-bottom: -500px;
+}
+html{
+	background-color:#A4A4A4;
+}
+canvas{
+	position: absolute;
+	margin-left: -400px;
+}
